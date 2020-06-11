@@ -15,7 +15,7 @@ npm i jest -g
 # 例如： 做第一题
 
 # 启动单元测试
-jest ex01 -watch
+jest ex01 --watchAll
 
 # 直到完成测试案例
 ```
@@ -51,8 +51,13 @@ npm run encrypt
 
 ### 04 sequelize + sqllite3 实现多对多更新
 
-### 05 eventloop实现原理
+### 05 Eventemitter实现异步流程控制
+练习使用订阅发布方式实现异步流程控制 
+- 可以使用Eventemitter函数不必自己实现
+
 ### 06 jwt原理解析 反篡改 过期检测
+
+
 ### 07 loader实现原理 自动加载模块
 ### 08 企业级实现 统一异常处理
 ### 09 TS装饰器 装饰器原理解析
