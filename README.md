@@ -56,6 +56,8 @@ npm run encrypt
 - 可以使用Eventemitter函数不必自己实现
 
 ### 06 jwt原理解析 反篡改 过期检测
+- 提取JWT Token中的有效期
+
 
 
 ### 07 loader实现原理 自动加载模块
