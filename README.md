@@ -56,11 +56,15 @@ npm run encrypt
 - 可以使用Eventemitter函数不必自己实现
 
 ### 06 jwt原理解析 反篡改 过期检测
-- 提取JWT Token中的有效期
-
-
+- 提取JWT Token中的有效期 
+- 参考[阮一峰jwt原理解析](http://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html)
+- 利用Buffer进行Base64解码
+- 验证JWT 中的Hash值(选做)
 
 ### 07 loader实现原理 自动加载模块
+
+
+
 ### 08 企业级实现 统一异常处理
 ### 09 TS装饰器 装饰器原理解析
 ### 10 Cluster 思维脑图
