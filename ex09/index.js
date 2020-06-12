@@ -1,18 +1,18 @@
-// 类装饰器
-function anotationClass(id){
-    console.log('anotationClass evaluated', id);
-    return (target) => console.log('anotationClass executed', id);
-}
-// 方法装饰器
-function anotationMethods(id){
-    console.log('anotationMethods evaluated', id);
-    return (target, property, descriptor) => console.log('anotationMethods executed', id);
-}
 
-@anotationClass(1)
-@anotationClass(2)
-class Example {
-    @anotationMethods(1)
-    @anotationMethods(2)
-    method(){}
+
+module.exports.brackets = (target, property) => {
+    const old = target.prototype[property]
+    target.prototype[property] = msg => {
+        msg = `[${msg}]`
+        return old(msg)
+    }
+}
+module.exports.sender = name => (target, property) => {
+    // ##BEGIN## 代码已加密
+JEHJEHJEHJEHOSJOEEOESOEIOEAJEHOEEOEJOSOJEHJXIJEHOEAOOIOEXOSPOSSOEAJHOOEPOEXOEEOEAOEEOEAOPPOEPOSSOOOOEPOEXOEEOEPOSSOEXOEAOPPOOE
+JEHJEHJEHJEHOEAOOIOEXOSPOSSOEAJHOOEPOEXOEEOEAOEEOEAOPPOEPOSSOOOOEPOEXOEEOEPOSSOEXOEAOPPOOEJEHJXIJEHOEOOEIOSPJEHJXIJXAJEHOPX
+JEHJEHJEHJEHJEHJEHJEHJEHOEOOEIOSPJEHJXIJEHOOXJPJOPXOESOOIOEOOSSOPAJEHJXPJEHJPJOPXOEOOEIOSPOPAOOX
+JEHJEHJEHJEHJEHJEHJEHJEHOEXOSSOEAOPJOEXOESJEHOEEOEJOSOJPPOEOOEIOSPJPH
+JEHJEHJEHJEHOPA
+    // ##END##
 }
