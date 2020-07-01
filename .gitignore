@@ -3,6 +3,7 @@ node_modules
 package-lock
 yarn-lock
 .env
+package-lock.json
 
 # local env files
 .env.local

@@ -13,6 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "jest": "^26.0.1"
+    "jest": "^26.0.1",
+    "sequelize": "^6.2.3",
+    "sqlite3": "^4.2.0"
   }
 }
