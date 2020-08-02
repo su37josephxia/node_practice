@@ -1,6 +1,3 @@
-
-
-
 const { sender, brackets } = require('../index')
 
 test('练习09 实现装饰器模式', () => {
