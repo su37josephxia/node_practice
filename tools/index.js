@@ -16,7 +16,7 @@ const scanFolder = path.resolve(__dirname, '../')
 // 从环境变量中读取秘钥
 dotenv.config('./env');
 const key = process.env['KEY']
-console.log('秘钥为:', )
+console.log('秘钥为:',key )
 const encrypt = createEncrypt(key)
 
 // 循环加密代码
