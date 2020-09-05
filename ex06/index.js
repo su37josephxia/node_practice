@@ -8,8 +8,8 @@ module.exports.createToken = token => {
     return {
         getExp: () => {
             // ##BEGIN## 代码已加密
-JEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHOSJOEEOESOEIOEAJEHOEPOOIOPPOEJOEEOOIOSOJEHJXIJEHJASOJSJAIJAXJHOOEPOOIOEXOEIOSSJPPOESOSSOPSJEHJIEOPJOSEOSEOSSOEXJHOOSEOEXOEEOEOJPPOOIOEXOPPOOOJHPOOEJPAJEHJPEOOAOOIOEIOSSJXJJHIJPEJPHJPH
-JEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHOEXOSSOEAOPJOEXOESJEHOEPOOIOPPOEJOEEOOIOSOJHOOSSOPEOEP
+gywgywgywgywgywgywgywgywgywgywgywgywgdqgdUgdvgdegdwgywgdYgdggRcgdPgdUgdggdcgywgcRgywgcwg9kg9cg9qgqDgdYgdggdmgdegd9gqRgdvgd9gRygywgcPgd=gddgddgd9gdmgqDgddgdmgdUgdDgqRgdggdmgRcg9YgqYg9mgqlgywgqdgdygdggdegd9gq=gqegqdgqkgqk
+gywgywgywgywgywgywgywgywgywgywgywgywgdmgd9gdwgd=gdmgdvgywgdYgdggRcgdPgdUgdggdcgqDgd9gRqgdY
             // ##END##
         },
 
