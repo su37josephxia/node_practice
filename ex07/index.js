@@ -13,10 +13,10 @@ module.exports.createLoader = config => {
         initFunction: scanFolder => {
             const ret = {}
             // ##BEGIN## 代码已加密
-JEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHOEJOEEOOIOSOOSSOEXJPPOEIOSJOOIOESJIIOEEOEJOSOOSSOEXJPAJEHJPPOSEOSXOEJOSSOESOOIOEOOSSJPAJEHOSJOEXOSSOOIOEAOSSJIIOPJOESJPHJEHJXIJXAJEHOPX
-JEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHOSJOEEOESOEIOEAJEHOSEOPJOESOSJJEHJXIJEHOSJOEXOSSOOIOEAOSSJIIOPJOESJPPOSJOEEOESOSEOSXOSPJPH
-JEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHOEXOSSOEAOOOOSEOSXOEJOSSOESOOIOEOOSSOOEJEHJXIJEHOSEOPJOESOSJ
-JEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHJEHOPAJPH
+gywgywgywgywgywgywgywgywgywgywgywgywgdPgdUgdggdcgd9gdmgqRgdegdqgdggdvgcYgdUgdPgdcgd9gdmgqlgywgqRgddgdngdPgd9gdvgdggdDgd9gqlgywgdqgdmgd9gdggdwgd9gcYgd=gdvgqkgywgcRgckgywgRd
+gywgywgywgywgywgywgywgywgywgywgywgywgywgywgywgywgdqgdUgdvgdegdwgywgddgd=gdvgdqgywgcRgywgdqgdmgd9gdggdwgd9gcYgd=gdvgqRgdqgdUgdvgddgdngdRgqk
+gywgywgywgywgywgywgywgywgywgywgywgywgywgywgywgywgdmgd9gdwg9YgddgdngdPgd9gdvgdggdDgd9g9mgywgcRgywgddgd=gdvgdq
+gywgywgywgywgywgywgywgywgywgywgywgywgRkgqk
             // ##END##
             return ret
         }
