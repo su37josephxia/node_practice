@@ -8,6 +8,10 @@ Linux 的创始人 Linus Torvalds 在 2000-08-25 给linux-kernel 邮件列表的
 
 # 码农翻译 ： 别哔哔 ， 撸一个
 
+![image-20201013103534674](./assets/image-20201013103534674.png)
+
+
+
 
 ## 如何开始做题
 
