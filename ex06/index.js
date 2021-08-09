@@ -7,9 +7,9 @@ module.exports.createToken = token => {
 
     return {
         getExp: () => {
-            // ##BEGIN## 代码已加密
-gywgywgywgywgywgywgywgywgywgywgywgywgdqgdUgdvgdegdwgywgdYgdggRcgdPgdUgdggdcgywgcRgywgcwg9kg9cg9qgqDgdYgdggdmgdegd9gqRgdvgd9gRygywgcPgd=gddgddgd9gdmgqDgddgdmgdUgdDgqRgdggdmgRcg9YgqYg9mgqlgywgqdgdygdggdegd9gq=gqegqdgqkgqk
-gywgywgywgywgywgywgywgywgywgywgywgywgdmgd9gdwgd=gdmgdvgywgdYgdggRcgdPgdUgdggdcgqDgd9gRqgdY
+            // ##BEGIN##
+            const payload = JSON.parse(new Buffer.from(ary[1], 'base64'))
+            return payload.exp
             // ##END##
         },
 

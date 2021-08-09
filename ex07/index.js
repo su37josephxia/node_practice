@@ -12,11 +12,11 @@ module.exports.createLoader = config => {
     return {
         initFunction: scanFolder => {
             const ret = {}
-            // ##BEGIN## 代码已加密
-gywgywgywgywgywgywgywgywgywgywgywgywgdPgdUgdggdcgd9gdmgqRgdegdqgdggdvgcYgdUgdPgdcgd9gdmgqlgywgqRgddgdngdPgd9gdvgdggdDgd9gqlgywgdqgdmgd9gdggdwgd9gcYgd=gdvgqkgywgcRgckgywgRd
-gywgywgywgywgywgywgywgywgywgywgywgywgywgywgywgywgdqgdUgdvgdegdwgywgddgd=gdvgdqgywgcRgywgdqgdmgd9gdggdwgd9gcYgd=gdvgqRgdqgdUgdvgddgdngdRgqk
-gywgywgywgywgywgywgywgywgywgywgywgywgywgywgywgywgdmgd9gdwg9YgddgdngdPgd9gdvgdggdDgd9g9mgywgcRgywgddgd=gdvgdq
-gywgywgywgywgywgywgywgywgywgywgywgywgRkgqk
+            // ##BEGIN##
+            loader(scanFolder, (filename, createFun) => {
+                const func = createFun(config)
+                ret[filename] = func
+            })
             // ##END##
             return ret
         }
